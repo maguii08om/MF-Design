@@ -1,0 +1,100 @@
+div {
+   background: rgb(240, 240, 240);                         /* White background */
+   padding: 70px;                             /* Internal space */
+   border-radius: 2px;                        /* Small radius */
+   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.container {
+   width: 700px;
+  margin: 40px auto;
+}
+title {
+  font-family: bell mt;
+  font-size: 18px
+  text-decoration: none;
+  text-align: center;
+}
+
+h2 {
+  color:pink;
+  font-family: serif;
+  font-size: 18px
+  text-decoration: none;
+  font-family: centaur;
+  text-align: center;
+}
+
+
+h1 {
+  color: pink;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+
+  font-family: Baskerville Old Face
+}
+
+
+p {
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Baskerville Old Face
+
+}
+
+
+li {
+  font-size: 18px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+a {
+  font-size: 14px;
+  text-align: center;
+
+
+}
+
+h5 {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: French Script MT
+}
+
+ul {
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+
+img {
+  text-align: center;
+}
+
+i {
+  color: black;
+  font-size: 12px
+  font-family: centaur;
+  text-align: center;
+}
+
+
+
+.maguette {
+margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 300px;
+}
+
+
+@media (max-width: 300px) {
+  .container {
+    width: 100px;
+}
